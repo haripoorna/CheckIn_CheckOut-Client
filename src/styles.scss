@@ -73,7 +73,14 @@ html {
 
 .icon-box19 {
   text-align: center;
+  height: 220px;
+  width: 150px;
   transition: all .22s ease;
+}
+.box-shadow{
+   border-radius: 21px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 11px 2px rgba(0, 0, 0, 0.5);
 }
 
 // button container
@@ -81,13 +88,14 @@ html {
   display: inline-block;
   cursor: pointer;
   margin-top: 6px;
-  padding: 8px 38px;
-  width: 200px;
-  height: 40px;
+  padding: 9px 38px;
+  width: 180px;
+  height: 44px;
   border-radius: 100px;
   background-color: $buttoncolor;
   border: 1px solid #b1b1b1;
   color: $white;
+  font-weight: 100;
   font-size: 18px;
 }
 
@@ -123,4 +131,19 @@ html {
  width: 79px;
  height: 184px;
  object-fit: contain;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+    
+}
+  .proffesion{
+    padding: 50px 0px 50px 0px;
+  }
+.col-centered {
+    display:inline-block;
+    float:none;
+    margin-right:-4px;
+   
 }
